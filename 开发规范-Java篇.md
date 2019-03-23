@@ -31,6 +31,7 @@ if(UserStatus.STATUS1.equals(status)
 **所有有关状态的判断都应该是收敛的，至少收敛到一个文件中**
 
 **优化1**
+
 ```java
 public enum UserStatus{
     STATUS1,
@@ -56,6 +57,7 @@ public enum UserStatus{
 事实证明，大部分需要人来主动操作的事情都是不那么靠谱的，**我们需要将主动变成被动**
 
 **优化2**
+
 怎么弄呢？可以这样修改：
 
 ```java
